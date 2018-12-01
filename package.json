@@ -10,13 +10,15 @@
   "scripts": {
     "build": "tsc",
     "bundle": "rollup -c",
-    "lint": "tslint --project ./"
+    "lint": "tslint --project ./",
+    "dev": "polymer serve --open"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/plugin-proposal-decorators": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
+    "polymer-cli": "^1.9.1",
     "rollup": "^0.67.3",
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-commonjs": "^9.2.0",

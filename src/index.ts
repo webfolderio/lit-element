@@ -16,7 +16,7 @@ class Foo extends LitElement {
 
   render() {
     return html`<h1
-        style="cursor: pointer; user-select: none; color: ${this.counter % 2 ? 'red' : 'green'}"
+        style="cursor: pointer; user-select: none; color: ${this.counter % 2 ? 'red' : 'blue'}"
          @click="${this.clickHandler}">
           ${this.value} ${this.counter}</h1>`;
   }
