@@ -1,0 +1,29 @@
+{
+    "editor.accessibilitySupport": "off",
+    "explorer.openEditors.visible": 0,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "files.exclude": {
+        "**/.vscode": true,
+        "**/node_modules": true,
+        "package-lock.json": true,
+        "*.json": true,
+        "rollup.config.js": true,
+        "README.md": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/*.js.map": true,
+        "**/*.min.js": true,
+        "**/webcomponents-sd-ce-pf.js": true,
+        "**/*.babelrc": true,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        }
+    },
+    "editor.renderIndentGuides": false,
+    "editor.highlightActiveIndentGuide": false,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#555"
+    },
+    "editor.renderLineHighlight": "all",
+}

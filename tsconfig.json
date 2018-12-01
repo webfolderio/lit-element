@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "sourceMap": true,
+        "lib": ["es6", "dom"],
+        "allowSyntheticDefaultImports": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "noUnusedParameters": true,
+        "preserveConstEnums": true,
+        "typeRoots": ["node_modules/@types"]
+    },
+      "include": [
+        "**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+}
